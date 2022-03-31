@@ -1,9 +1,18 @@
-# Tags: latest, 6.0.201-debian-10-r21, 6.0.201, 6-debian-10, 6
+# Tags: latest, 6.0.201-debian-10-r22, 6.0.201, 6-debian-10, 6
 FROM bitnami/dotnet-sdk:latest
-FROM bitnami/dotnet-sdk:6.0.201-debian-10-r21
+FROM bitnami/dotnet-sdk:6.0.201-debian-10-r22
 FROM bitnami/dotnet-sdk:6.0.201
 FROM bitnami/dotnet-sdk:6-debian-10
 FROM bitnami/dotnet-sdk:6
+
+# Tags: _
+FROM bitnami/dotnet-sdk:_
+
+# Tags: 3.1.417-debian-10-r22, 3.1.417, 3.1-debian-10, 3.1
+FROM bitnami/dotnet-sdk:3.1.417-debian-10-r22
+FROM bitnami/dotnet-sdk:3.1.417
+FROM bitnami/dotnet-sdk:3.1-debian-10
+FROM bitnami/dotnet-sdk:3.1
 
 # Tags: 5.0.406-debian-10-r20, 5.0.406, 5-debian-10, 5
 FROM bitnami/dotnet-sdk:5.0.406-debian-10-r20
@@ -11,14 +20,11 @@ FROM bitnami/dotnet-sdk:5.0.406
 FROM bitnami/dotnet-sdk:5-debian-10
 FROM bitnami/dotnet-sdk:5
 
-# Tags: _
-FROM bitnami/dotnet-sdk:_
+# Tags: 6.0.201-debian-10-r21
+FROM bitnami/dotnet-sdk:6.0.201-debian-10-r21
 
-# Tags: 3.1.417-debian-10-r21, 3.1.417, 3.1-debian-10, 3.1
+# Tags: 3.1.417-debian-10-r21
 FROM bitnami/dotnet-sdk:3.1.417-debian-10-r21
-FROM bitnami/dotnet-sdk:3.1.417
-FROM bitnami/dotnet-sdk:3.1-debian-10
-FROM bitnami/dotnet-sdk:3.1
 
 # Tags: 5.0.406-debian-10-r19
 FROM bitnami/dotnet-sdk:5.0.406-debian-10-r19
@@ -271,6 +277,3 @@ FROM bitnami/dotnet-sdk:6.0.200-debian-10-r12
 
 # Tags: 6.0.200-debian-10-r11
 FROM bitnami/dotnet-sdk:6.0.200-debian-10-r11
-
-# Tags: 3.1.416-debian-10-r74
-FROM bitnami/dotnet-sdk:3.1.416-debian-10-r74
